@@ -21,19 +21,32 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#16a34a"
       },
-      "package": "com.ghgi.mobile"
+      "package": "com.ghgi.mobile",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
     },
     "plugins": [
       "expo-router",
       "expo-secure-store",
       [
         "expo-location",
-        { "locationAlwaysAndWhenInUsePermission": "Allow GHG Inventory to use your location for geo-tagging." }
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow GHG Inventory to use your location for geo-tagging."
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true,
       "autolinkingModuleResolution": false
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2b659466-ba60-4ea1-8282-a6afc60c1610"
+      }
+    },
+    "owner": "seixin28"
   }
 }
