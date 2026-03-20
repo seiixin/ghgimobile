@@ -1,0 +1,200 @@
+[
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "",
+    "Emission Factor": "CO2",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "Mineral Industry",
+    "": "",
+    "Operation": "Cement Production - Portland",
+    "Emission Factor": "  2.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Cement Production - Blended",
+    "Emission Factor": "  2.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Lime Production",
+    "Emission Factor": "  2.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Glass Production",
+    "Emission Factor": "  2.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "Chemical Industry",
+    "": "",
+    "Operation": "Ammonia Production",
+    "Emission Factor": "  3.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Soda Ash Production",
+    "Emission Factor": "  3.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Petrochemical and Carbon Black Production - Methanol",
+    "Emission Factor": "  3.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Petrochemical and Carbon Black Production - Ethylene",
+    "Emission Factor": "  3.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Petrochemical and Carbon Black Production - Ethylene Dichloride and Vinyl Chloride Monomer",
+    "Emission Factor": "  3.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Petrochemical and Carbon Black Production - Ethylene Oxide",
+    "Emission Factor": "  3.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Petrochemical and Carbon Black Production - Acrylonitrile",
+    "Emission Factor": "  3.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Petrochemical and Carbon Black Production - Carbon Black",
+    "Emission Factor": "  3.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "Metal Industry",
+    "": "",
+    "Operation": "Iron and Steel Production from Integrated Facilities",
+    "Emission Factor": "  4.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Iron and Steel Production from Non-integrated Facilities",
+    "Emission Factor": "  4.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "Electronics Industry",
+    "": "",
+    "Operation": "Integrated Circuit or Semiconductor",
+    "Emission Factor": "",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "TFT Flat Panel Display ",
+    "Emission Factor": "",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Photovoltaics ",
+    "Emission Factor": "",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Heat Transfer Fluid ",
+    "Emission Factor": "",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "Others",
+    "": "",
+    "Operation": "Pulp and Paper Industry ",
+    "Emission Factor": "  6.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Food and Beverages Industry ",
+    "Emission Factor": "  6.00 ",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Industry Type": "",
+    "": "",
+    "Operation": "Other",
+    "Emission Factor": "  6.00",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  }
+]

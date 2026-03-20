@@ -1,0 +1,145 @@
+[
+  {
+    "Fuel Type": "",
+    "": "N2O",
+    "Application": "",
+    " Emission Factors": "CO2",
+    "Units": "",
+    "Emission Factors": "NOx",
+    " Uncertainty of Emission Factor": "CO2",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": ""
+  },
+  {
+    "Fuel Type": "100% Biodiesel",
+    "": "n/a",
+    "Application": "Mobile combustion - all applications",
+    " Emission Factors": "  2.499 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%",
+    "Combined Uncertainty": "5%",
+    "Emission Factor Source": "CO2 emission factors derived from WRI/WBCSD GHG Protocol Emission Factors from Cross-Sector Tools. Table 10 'CO2 Emission Factors by Fuel', Version 1.3. August, 2012. See tab entitled \"Transport Fuel Use\"."
+  },
+  {
+    "Fuel Type": "Aviation Gasoline",
+    "": "n/a",
+    "Application": "Mobile combustion - all applications",
+    " Emission Factors": "  2.201 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%",
+    "Combined Uncertainty": "5%",
+    "Emission Factor Source": ""
+  },
+  {
+    "Fuel Type": "B20 Biodiesel/Diesel",
+    "": "n/a",
+    "Application": "Mobile combustion - all applications",
+    " Emission Factors": "  2.141 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%",
+    "Combined Uncertainty": "5%",
+    "Emission Factor Source": ""
+  },
+  {
+    "Fuel Type": "CNG",
+    "": "n/a",
+    "Application": "Mobile combustion - all applications",
+    " Emission Factors": "  0.053 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%",
+    "Combined Uncertainty": "5%",
+    "Emission Factor Source": ""
+  },
+  {
+    "Fuel Type": "E85 Ethanol/Gasoline",
+    "": "n/a",
+    "Application": "Mobile combustion - all applications",
+    " Emission Factors": "  0.341 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%",
+    "Combined Uncertainty": "5%",
+    "Emission Factor Source": ""
+  },
+  {
+    "Fuel Type": "Ethanol",
+    "": "n/a",
+    "Application": "Mobile combustion - all applications",
+    " Emission Factors": "  1.469 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%",
+    "Combined Uncertainty": "5%",
+    "Emission Factor Source": ""
+  },
+  {
+    "Fuel Type": "Gasoline/Petrol",
+    "": "n/a",
+    "Application": "Mobile combustion - all applications",
+    " Emission Factors": "  2.272 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%",
+    "Combined Uncertainty": "5%",
+    "Emission Factor Source": ""
+  },
+  {
+    "Fuel Type": "Jet Fuel",
+    "": "n/a",
+    "Application": "Mobile combustion - all applications",
+    " Emission Factors": "  2.491 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%",
+    "Combined Uncertainty": "5%",
+    "Emission Factor Source": ""
+  },
+  {
+    "Fuel Type": "LNG",
+    "": "n/a",
+    "Application": "Mobile combustion - all applications",
+    " Emission Factors": "  1.178 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%",
+    "Combined Uncertainty": "5%",
+    "Emission Factor Source": ""
+  },
+  {
+    "Fuel Type": "LPG",
+    "": "n/a",
+    "Application": "Mobile combustion - all applications",
+    " Emission Factors": "  1.611 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%",
+    "Combined Uncertainty": "5%",
+    "Emission Factor Source": ""
+  },
+  {
+    "Fuel Type": "On-Road Diesel Fuel",
+    "": "n/a",
+    "Application": "Mobile combustion - all applications",
+    " Emission Factors": "  2.676 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%",
+    "Combined Uncertainty": "5%",
+    "Emission Factor Source": ""
+  },
+  {
+    "Fuel Type": "Residual Fuel Oil (3s 5 and 6)",
+    "": "n/a",
+    "Application": "Mobile combustion - all applications",
+    " Emission Factors": "  2.939 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%",
+    "Combined Uncertainty": "5%",
+    "Emission Factor Source": ""
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "Flight Type": "",
+    "": "",
+    "Flight Distance": "",
+    " Emission Factors*": "CO2",
+    "Units": "",
+    " Uncertainty of Emission Factor**": "CO2",
+    "Combined": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Flight Type": "Air - Domestic",
+    "": "",
+    "Flight Distance": "Less than 452 km",
+    " Emission Factors*": "  0.171 ",
+    "Units": "kg CO2/ passenger km",
+    " Uncertainty of Emission Factor**": "See application-specific uncertainites in seperate air travel spreadsheets.",
+    "Combined": "",
+    "Emission Factor Source": "CO2 emission factors derived from WRI/WBCSD GHG Protocol Emission Factors from Cross-Sector Tools. Table 12, Version 1.3. August, 2012",
+    "Uncertainty Source/Rationale": "See application-specific uncertainties in separate air travel spreadsheets.",
+    "Notes": "Emission factors for individual gases not available"
+  },
+  {
+    "Flight Type": "Air - Long Haul - Business Class",
+    "": "",
+    "Flight Distance": "More than 1600 km",
+    " Emission Factors*": "  0.240 ",
+    "Units": "kg CO2/ passenger km",
+    " Uncertainty of Emission Factor**": "",
+    "Combined": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Flight Type": "Air - Long Haul - Economy Class",
+    "": "",
+    "Flight Distance": "More than 1600 km",
+    " Emission Factors*": "  0.083 ",
+    "Units": "kg CO2/ passenger km",
+    " Uncertainty of Emission Factor**": "",
+    "Combined": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Flight Type": "Air - Long Haul - Economy+ Class",
+    "": "",
+    "Flight Distance": "More than 1600 km",
+    " Emission Factors*": "  0.132 ",
+    "Units": "kg CO2/ passenger km",
+    " Uncertainty of Emission Factor**": "",
+    "Combined": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Flight Type": "Air - Long Haul - First Class",
+    "": "",
+    "Flight Distance": "More than 1600 km",
+    " Emission Factors*": "  0.331 ",
+    "Units": "kg CO2/ passenger km",
+    " Uncertainty of Emission Factor**": "",
+    "Combined": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Flight Type": "Air - Long Haul - Seating Unknown",
+    "": "",
+    "Flight Distance": "More than 1600 km",
+    " Emission Factors*": "  0.113 ",
+    "Units": "kg CO2/ passenger km",
+    " Uncertainty of Emission Factor**": "",
+    "Combined": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Flight Type": "Air - Short Haul - Economy Class",
+    "": "",
+    "Flight Distance": "Between 452 km and 1600 km",
+    " Emission Factors*": "  0.092 ",
+    "Units": "kg CO2/ passenger km",
+    " Uncertainty of Emission Factor**": "",
+    "Combined": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Flight Type": "Air - Short Haul - First/Business Class",
+    "": "",
+    "Flight Distance": "Between 452 km and 1600 km",
+    " Emission Factors*": "  0.139 ",
+    "Units": "kg CO2/ passenger km",
+    " Uncertainty of Emission Factor**": "",
+    "Combined": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Flight Type": "Air - Short Haul - Seating Unknown",
+    "": "",
+    "Flight Distance": "Between 452 km and 1600 km",
+    " Emission Factors*": "  0.097 ",
+    "Units": "kg CO2/ passenger km",
+    " Uncertainty of Emission Factor**": "",
+    "Combined": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  }
+]

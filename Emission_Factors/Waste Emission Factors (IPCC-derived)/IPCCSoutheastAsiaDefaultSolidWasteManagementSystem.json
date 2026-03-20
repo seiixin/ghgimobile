@@ -1,0 +1,62 @@
+[
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": ""
+  },
+  {
+    "Type of Factor": "IPCC Default Values for Types of Solid Waste Management Systems in Southeast Asia",
+    "": "",
+    "Type of Waste": "Municipal Solid Waste Generated ",
+    " Value": "",
+    "Units": "tonnes/capita/year",
+    " Uncertainty of Value": "N/A",
+    "Combined Uncertainty": "N/A",
+    "Reference": "Source: IPCC 2006 guidelinse volume 5, chapter 2"
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Fraction Disposed in Solid Waste Disposal Sites",
+    " Value": "",
+    "Units": "%",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Fraction Incinerated",
+    " Value": "",
+    "Units": "%",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Fraction Composted",
+    " Value": "",
+    "Units": "%",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Fraction Other and Unspecified",
+    " Value": "",
+    "Units": "%",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": ""
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "",
+    " Emission/Intensity Factor": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "CH4 Emission Factor",
+    "": "",
+    "Type of Waste": "Composting",
+    " Emission/Intensity Factor": "",
+    "Units": "g CH4 / kg waste treated",
+    " Uncertainty of Value": "10%",
+    "Combined Uncertainty": "10%",
+    "Reference": "IPCC, 2006 (Volume 5, Chapter 4, Table 4.1) Annex B9",
+    "Uncertainty Source/Rationale": "",
+    "Notes": "Default value on a “wet weight basis” was used.  "
+  },
+  {
+    "Type of Factor": "N2O Emission Factor",
+    "": "",
+    "Type of Waste": "Composting",
+    " Emission/Intensity Factor": "",
+    "Units": "g N2O / kg waste treated",
+    " Uncertainty of Value": "10%",
+    "Combined Uncertainty": "10%",
+    "Reference": "IPCC, 2006 (Volume 5, Chapter 4, Table 4.1) Annex B10",
+    "Uncertainty Source/Rationale": "",
+    "Notes": "Default value on a “wet weight basis” was used.  "
+  },
+  {
+    "Type of Factor": "CH4 Emission Factor",
+    "": "",
+    "Type of Waste": "Anaerobic digestion",
+    " Emission/Intensity Factor": "",
+    "Units": "g CH4 / kg waste treated",
+    " Uncertainty of Value": "10%",
+    "Combined Uncertainty": "10%",
+    "Reference": "IPCC, 2006 (Volume 5, Chapter 4, Table 4.1) Annex B11",
+    "Uncertainty Source/Rationale": "",
+    "Notes": "Default value on a “wet weight basis” was used.  "
+  },
+  {
+    "Type of Factor": "N2O Emission Factor",
+    "": "",
+    "Type of Waste": "Anaerobic digestion",
+    " Emission/Intensity Factor": "",
+    "Units": "g N2O / kg waste treated",
+    " Uncertainty of Value": "10%",
+    "Combined Uncertainty": "10%",
+    "Reference": "IPCC, 2006 (Volume 5, Chapter 4, Table 4.1) Annex B12",
+    "Uncertainty Source/Rationale": "",
+    "Notes": "Default value on a “wet weight basis” was used."
+  }
+]

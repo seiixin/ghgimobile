@@ -1,0 +1,50 @@
+[
+  {
+    "Country/Region/Grid*": "",
+    "": "",
+    "Application": "",
+    " Emission Factors": "CO2",
+    "Units": "",
+    " Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Country/Region/Grid*": "Custom (e.g. Utility-specific) Emission Factor",
+    "": "",
+    "Application": "",
+    " Emission Factors": "",
+    "Units": "kg GHG / kWh",
+    " Uncertainty of Emission Factor": "5%",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Country/Region/Grid*": "FLECO Grid Emission Factor (e.g. for Kalayaan)",
+    "": "",
+    "Application": "FLECO Grid Emissions Intesity Factor (e.g. for Kalayaan):  Overall greenhouse gas intensity for electricity-specific consumption, which includes transmission and distribution losses and excludes heat generation.",
+    " Emission Factors": "0.975 ",
+    "Units": "kg GHG / kWh",
+    " Uncertainty of Emission Factor": "10%",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "DOE, ERC, FLECO - Section 6.2.3 of Kalayaan GHG Inventory report ",
+    "Uncertainty Source/Rationale": "No specific uncertainty values available. Uncertainty represents the overall uncertainty of the emission factor estimates (-4% to +6%). The 10% confidence interval also corresponds to the combined uncertainty for emission factor and activity data for carbon dioxide emissions from energy according to GHG Protocol guidance, making this a conservative estimate of uncertainty for this emission factor.",
+    "Notes": "FLECO sources all its power from the Sual power plant (coal fired) so emission factors were calculated for the power plant. Actual coal consumption (tonnes) were not available, so proxy variable heat rate (BTU/kWh) was used. "
+  },
+  {
+    "Country/Region/Grid*": "Philippines (national default)",
+    "": "",
+    "Application": "National Default Overall greenhouse gas intensity for electricity-specific consumption, which includes transmission and distribution losses and excludes heat generation.",
+    " Emission Factors": "0.609 ",
+    "Units": "kg GHG / kWh",
+    " Uncertainty of Emission Factor": "10%",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "WRI/WBCSD GHG Protocol Emission Factors From Cross-Sector Tools (Excel Workbook). Version 1.3, August 2012. Table 16. ",
+    "Uncertainty Source/Rationale": "No specific uncertainty values available. Uncertainty represents the overall uncertainty of the emission factor estimates (-4% to +6%). The 10% confidence interval also corresponds to the combined uncertainty for emission factor and activity data for carbon dioxide emissions from energy according to GHG Protocol guidance, making this a conservative estimate of uncertainty for this emission factor.",
+    "Notes": ""
+  }
+]

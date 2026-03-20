@@ -1,0 +1,123 @@
+[
+  {
+    "Rail Type": "",
+    "": "",
+    "Distance/Application": "",
+    " Emission Factors*": "CO2",
+    "Units": "",
+    " Uncertainty of Emission Factor**": "CH4",
+    "Combined": "Uncertainty",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Rail Type": "Bus - Coach",
+    "": "",
+    "Distance/Application": "International - all distances.",
+    " Emission Factors*": "  0.107 ",
+    "Units": "kg / passenger mile",
+    " Uncertainty of Emission Factor**": "5%",
+    "Combined": "7%",
+    "Emission Factor Source": "WRI/WBCSD GHG Protocol Emission Factors From Cross-Sector Tools (Excel Workbook). Version 1.3, August 2012. Table 16. Tab: 'Reference - EF Public'",
+    "Uncertainty Source/Rationale": "Emissions factors for CO2 combustion are based on stoichiometric ratios and thus have very low uncertainties."
+  },
+  {
+    "Rail Type": "Bus - Local Bus",
+    "": "",
+    "Distance/Application": "International - all distances.",
+    " Emission Factors*": "  0.107 ",
+    "Units": "kg / passenger mile",
+    " Uncertainty of Emission Factor**": "5%",
+    "Combined": "7%",
+    "Emission Factor Source": "WRI/WBCSD GHG Protocol Emission Factors From Cross-Sector Tools (Excel Workbook). Version 1.3, August 2012. Table 16. Tab: 'Reference - EF Public'",
+    "Uncertainty Source/Rationale": "Emissions factors for CO2 combustion are based on stoichiometric ratios and thus have very low uncertainties."
+  },
+  {
+    "Rail Type": "Bus - Type Unknown",
+    "": "",
+    "Distance/Application": "International - all distances.",
+    " Emission Factors*": "  0.107 ",
+    "Units": "kg / passenger mile",
+    " Uncertainty of Emission Factor**": "5%",
+    "Combined": "7%",
+    "Emission Factor Source": "WRI/WBCSD GHG Protocol Emission Factors From Cross-Sector Tools (Excel Workbook). Version 1.3, August 2012. Table 16. Tab: 'Reference - EF Public'",
+    "Uncertainty Source/Rationale": "Emissions factors for CO2 combustion are based on stoichiometric ratios and thus have very low uncertainties."
+  },
+  {
+    "Rail Type": "Large RoPax Ferry",
+    "": "",
+    "Distance/Application": "International - all distances.",
+    " Emission Factors*": "  0.115 ",
+    "Units": "kg / passenger km",
+    " Uncertainty of Emission Factor**": "5%",
+    "Combined": "7%",
+    "Emission Factor Source": "WRI/WBCSD GHG Protocol Emission Factors From Cross-Sector Tools (Excel Workbook). Version 1.3, August 2012. Table 16. Tab: 'Reference - EF Public'",
+    "Uncertainty Source/Rationale": "Emissions factors for CO2 combustion are based on stoichiometric ratios and thus have very low uncertainties."
+  },
+  {
+    "Rail Type": "Taxi",
+    "": "",
+    "Distance/Application": "International - all distances.",
+    " Emission Factors*": "  0.230 ",
+    "Units": "kg / passenger mile",
+    " Uncertainty of Emission Factor**": "5%",
+    "Combined": "7%",
+    "Emission Factor Source": "WRI/WBCSD GHG Protocol Emission Factors From Cross-Sector Tools (Excel Workbook). Version 1.3, August 2012. Table 16. Tab: 'Reference - EF Public'",
+    "Uncertainty Source/Rationale": "Emissions factors for CO2 combustion are based on stoichiometric ratios and thus have very low uncertainties."
+  },
+  {
+    "Rail Type": "Train - Average (Light Rail and Tram)",
+    "": "",
+    "Distance/Application": "International - all distances.",
+    " Emission Factors*": "  0.163 ",
+    "Units": "kg / passenger mile",
+    " Uncertainty of Emission Factor**": "5%",
+    "Combined": "7%",
+    "Emission Factor Source": "WRI/WBCSD GHG Protocol Emission Factors From Cross-Sector Tools (Excel Workbook). Version 1.3, August 2012. Table 16. Tab: 'Reference - EF Public'",
+    "Uncertainty Source/Rationale": "Emissions factors for CO2 combustion are based on stoichiometric ratios and thus have very low uncertainties."
+  },
+  {
+    "Rail Type": "Train - Light Rail",
+    "": "",
+    "Distance/Application": "International - all distances.",
+    " Emission Factors*": "  0.163 ",
+    "Units": "kg / passenger mile",
+    " Uncertainty of Emission Factor**": "5%",
+    "Combined": "7%",
+    "Emission Factor Source": "WRI/WBCSD GHG Protocol Emission Factors From Cross-Sector Tools (Excel Workbook). Version 1.3, August 2012. Table 16. Tab: 'Reference - EF Public'",
+    "Uncertainty Source/Rationale": "Emissions factors for CO2 combustion are based on stoichiometric ratios and thus have very low uncertainties."
+  },
+  {
+    "Rail Type": "Train - National Rail",
+    "": "",
+    "Distance/Application": "International - all distances.",
+    " Emission Factors*": "  0.185 ",
+    "Units": "kg / passenger mile",
+    " Uncertainty of Emission Factor**": "5%",
+    "Combined": "7%",
+    "Emission Factor Source": "WRI/WBCSD GHG Protocol Emission Factors From Cross-Sector Tools (Excel Workbook). Version 1.3, August 2012. Table 16. Tab: 'Reference - EF Public'",
+    "Uncertainty Source/Rationale": "Emissions factors for CO2 combustion are based on stoichiometric ratios and thus have very low uncertainties."
+  },
+  {
+    "Rail Type": "Train - Subway",
+    "": "",
+    "Distance/Application": "International - all distances.",
+    " Emission Factors*": "  0.163 ",
+    "Units": "kg / passenger mile",
+    " Uncertainty of Emission Factor**": "5%",
+    "Combined": "7%",
+    "Emission Factor Source": "WRI/WBCSD GHG Protocol Emission Factors From Cross-Sector Tools (Excel Workbook). Version 1.3, August 2012. Table 16. Tab: 'Reference - EF Public'",
+    "Uncertainty Source/Rationale": "Emissions factors for CO2 combustion are based on stoichiometric ratios and thus have very low uncertainties."
+  },
+  {
+    "Rail Type": "Train - Tram",
+    "": "",
+    "Distance/Application": "International - all distances.",
+    " Emission Factors*": "  0.163 ",
+    "Units": "kg / passenger mile",
+    " Uncertainty of Emission Factor**": "5%",
+    "Combined": "7%",
+    "Emission Factor Source": "WRI/WBCSD GHG Protocol Emission Factors From Cross-Sector Tools (Excel Workbook). Version 1.3, August 2012. Table 16. Tab: 'Reference - EF Public'",
+    "Uncertainty Source/Rationale": "Emissions factors for CO2 combustion are based on stoichiometric ratios and thus have very low uncertainties."
+  }
+]

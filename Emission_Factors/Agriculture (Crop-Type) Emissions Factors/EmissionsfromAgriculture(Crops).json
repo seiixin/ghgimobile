@@ -1,0 +1,65 @@
+[
+  {
+    "Type of Factor": "",
+    "": "",
+    "Application (Crop Type and Irrigation)*": "",
+    " Emission Factors": "CO2",
+    "Units": "",
+    " Uncertainty of Emission Factor": "CO2",
+    "Combined Uncertainty": ""
+  },
+  {
+    "Type of Factor": "N2O Emission Factorr",
+    "": "",
+    "Application (Crop Type and Irrigation)*": " Crop Residues (tonnes of dry weight)",
+    " Emission Factors": "  -   ",
+    "Units": "kg GHG/ton",
+    " Uncertainty of Emission Factor": "0.0%",
+    "Combined Uncertainty": ""
+  },
+  {
+    "Type of Factor": "CH4 Emission Factor",
+    "": "",
+    "Application (Crop Type and Irrigation)*": " Rice (Dry Season, Irrigated)",
+    " Emission Factors": "  -   ",
+    "Units": "kg GHG/hectare",
+    " Uncertainty of Emission Factor": "0.0%",
+    "Combined Uncertainty": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Application (Crop Type and Irrigation)*": " Rice (Dry Season, Rainfed)",
+    " Emission Factors": "  -   ",
+    "Units": "kg GHG/hectare",
+    " Uncertainty of Emission Factor": "0.0%",
+    "Combined Uncertainty": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Application (Crop Type and Irrigation)*": " Rice (Wet Season, Irrigated)",
+    " Emission Factors": "  -   ",
+    "Units": "kg GHG/hectare",
+    " Uncertainty of Emission Factor": "0.0%",
+    "Combined Uncertainty": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Application (Crop Type and Irrigation)*": " Rice (Wet Season, Rainfed)",
+    " Emission Factors": "  -   ",
+    "Units": "kg GHG/hectare",
+    " Uncertainty of Emission Factor": "0.0%",
+    "Combined Uncertainty": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Application (Crop Type and Irrigation)*": " Other Crop Type",
+    " Emission Factors": "",
+    "Units": "",
+    " Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": ""
+  }
+]

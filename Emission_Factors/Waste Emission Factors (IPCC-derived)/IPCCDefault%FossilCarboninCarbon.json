@@ -1,0 +1,92 @@
+[
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": ""
+  },
+  {
+    "Type of Factor": "IPCC Default Values for % Fossil Carbon in Carbon by Waste Composition",
+    "": "",
+    "Type of Waste": "Paper/cardboard",
+    " Value": "",
+    "Units": "% fossil carbon in carbon",
+    " Uncertainty of Value": "N/A",
+    "Combined Uncertainty": "N/A",
+    "Reference": "IPCC, 2006 (Volume 5, Chapter 2, Table 2.4) Annex B1"
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Textiles",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Food waste",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Wood",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Garden and Park waste",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Nappies",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Rubber and Leather",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Other, inert waste",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": ""
+  }
+]

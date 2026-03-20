@@ -1,0 +1,93 @@
+[
+  {
+    "Type of Factor": "",
+    "": "",
+    "Incineration Type": "",
+    " Stocker": "",
+    " Fluidized Bed": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "CH4 Emission Factor",
+    "": "",
+    "Incineration Type": "Continuous incineration",
+    " Stocker": "2.0E-04",
+    " Fluidized Bed": "0.0E+00",
+    "Units": "kg CH4/tonne waste",
+    " Uncertainty of Value": "N/A",
+    "Combined Uncertainty": "N/A",
+    "Reference": "Source: IPCC guidelines 2006, voulme 5 chapter 5, table 5.3 page 5.20",
+    "Uncertainty Source/Rationale": "",
+    "Notes": "Default values were used."
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Incineration Type": "Semi continuous incineration",
+    " Stocker": "6.0E-03",
+    " Fluidized Bed": "1.8E-01",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Incineration Type": "Batch type incineration",
+    " Stocker": "6.0E-02",
+    " Fluidized Bed": "2.4E-01",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "N2O Emission Factor",
+    "": "",
+    "Incineration Type": "Continuous incineration",
+    " Stocker": "5.0E-02",
+    " Fluidized Bed": "5.0E-02",
+    "Units": "kg N2O.tonne waste",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "Source: IPCC guidelines 2006, voulme 5 chapter 5, table 5.6 page 5.22",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Incineration Type": "Semi continuous incineration",
+    " Stocker": "5.0E-02",
+    " Fluidized Bed": "5.0E-02",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Incineration Type": "Batch type incineration",
+    " Stocker": "6.0E-02",
+    " Fluidized Bed": "6.0E-02",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  }
+]

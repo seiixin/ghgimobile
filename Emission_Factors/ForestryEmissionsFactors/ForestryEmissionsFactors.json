@@ -1,0 +1,200 @@
+[
+  {
+    "Sources of Emission": "",
+    "": "",
+    "Sources of Removal": "",
+    "Emission/Removal Factor": "CO2",
+    "Units": "",
+    "Uncertainty of Emission Factor": "CO2",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": " Fuelwood",
+    "": "",
+    "Sources of Removal": "",
+    "Emission/Removal Factor": "  0.74 ",
+    "Units": "tons CO2/cubic meter or tons CO2/ton",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": " Charcoal",
+    "": "",
+    "Sources of Removal": "",
+    "Emission/Removal Factor": "  1.80 ",
+    "Units": "(unitless)",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": " Construction",
+    "": "",
+    "Sources of Removal": "",
+    "Emission/Removal Factor": "  1.10 ",
+    "Units": "tons CO2/cubic meter or tons CO2/ton",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": " Novelties",
+    "": "",
+    "Sources of Removal": "",
+    "Emission/Removal Factor": "  1.80 ",
+    "Units": "(unitless)",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": " Used for Agriculture",
+    "": "",
+    "Sources of Removal": "",
+    "Emission/Removal Factor": "  14.03 ",
+    "Units": "tons CO2 / hectare",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": " Used as Grasslands",
+    "": "",
+    "Sources of Removal": "",
+    "Emission/Removal Factor": "  14.03 ",
+    "Units": "tons CO2 / hectare",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": " Left as Barren Areas",
+    "": "",
+    "Sources of Removal": "",
+    "Emission/Removal Factor": "  14.03 ",
+    "Units": "tons CO2 / hectare",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": "",
+    "": "",
+    "Sources of Removal": "Protection Forest/Old Growth/Mossy/Pine/Submarginal Mangrove",
+    "Emission/Removal Factor": "",
+    "Units": "tons CO2 / hectare",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": "",
+    "": "",
+    "Sources of Removal": "Secondary Growth",
+    "Emission/Removal Factor": "",
+    "Units": "tons CO2 / hectare",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": "",
+    "": "",
+    "Sources of Removal": "Brushland - for wood",
+    "Emission/Removal Factor": "",
+    "Units": "tons CO2 / hectare",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": "",
+    "": "",
+    "Sources of Removal": "Grassland",
+    "Emission/Removal Factor": "",
+    "Units": "tons CO2 / hectare",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": "",
+    "": "",
+    "Sources of Removal": "Tree Plantation - S. macrophylla",
+    "Emission/Removal Factor": "",
+    "Units": "tons CO2 / hectare",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": "",
+    "": "",
+    "Sources of Removal": "Barren to Forestland",
+    "Emission/Removal Factor": "",
+    "Units": "tons CO2 / hectare",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": "",
+    "": "",
+    "Sources of Removal": "Grassland to Forestland",
+    "Emission/Removal Factor": "",
+    "Units": "tons CO2 / hectare",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": "",
+    "": "",
+    "Sources of Removal": "Wetlands to Forestland",
+    "Emission/Removal Factor": "",
+    "Units": "tons CO2 / hectare",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": "",
+    "": "",
+    "Sources of Removal": "Settlement to Forestland",
+    "Emission/Removal Factor": "",
+    "Units": "tons CO2 / hectare",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  },
+  {
+    "Sources of Emission": "",
+    "": "",
+    "Sources of Removal": "Cropland to Forestland",
+    "Emission/Removal Factor": "",
+    "Units": "tons CO2 / hectare",
+    "Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": "",
+    "Emission Factor Source": "",
+    "Uncertainty Source/Rationale": ""
+  }
+]

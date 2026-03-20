@@ -1,0 +1,74 @@
+[
+  {
+    "Type of Factor": "",
+    "": "",
+    "Application (Livestock Type)": "",
+    " Emission Factors": "CO2",
+    "Units": "",
+    " Uncertainty of Emission Factor": "CO2",
+    "Combined Uncertainty": ""
+  },
+  {
+    "Type of Factor": "Combined Emission Factor for Enteric Fermentation (CH4), Manure Mangement (CH4), Manure Fertilizer Use (N2O), and Animal Grazing (N2O)",
+    "": "",
+    "Application (Livestock Type)": " Buffalo",
+    " Emission Factors": "  -   ",
+    "Units": "kg GHG/head",
+    " Uncertainty of Emission Factor": "0.0%",
+    "Combined Uncertainty": ""
+  },
+  {
+    "Type of Factor": "Combined Emission Factor for Enteric Fermentation (CH4), Manure Mangement (CH4, N2O), Manure Fertilizer Use (N2O), and Animal Grazing (N2O)",
+    "": "",
+    "Application (Livestock Type)": " Cattle",
+    " Emission Factors": "  -   ",
+    "Units": "kg GHG/head",
+    " Uncertainty of Emission Factor": "0.0%",
+    "Combined Uncertainty": ""
+  },
+  {
+    "Type of Factor": "Combined Emission Factor for Enteric Fermentation (CH4), Manure Mangement (CH4), Manure Fertilizer Use (N2O), and Animal Grazing (N2O)",
+    "": "",
+    "Application (Livestock Type)": " Goat",
+    " Emission Factors": "  -   ",
+    "Units": "kg GHG/head",
+    " Uncertainty of Emission Factor": "0.0%",
+    "Combined Uncertainty": ""
+  },
+  {
+    "Type of Factor": "Combined Emission Factor for Enteric Fermentation (CH4), Manure Mangement (CH4)",
+    "": "",
+    "Application (Livestock Type)": " Horse",
+    " Emission Factors": "  -   ",
+    "Units": "kg GHG/head",
+    " Uncertainty of Emission Factor": "0.0%",
+    "Combined Uncertainty": ""
+  },
+  {
+    "Type of Factor": "Other (Custom)",
+    "": "",
+    "Application (Livestock Type)": " Other",
+    " Emission Factors": "",
+    "Units": "",
+    " Uncertainty of Emission Factor": "",
+    "Combined Uncertainty": ""
+  },
+  {
+    "Type of Factor": "Combined Emission Factor for Manure Mangement (CH4, N2O), Manure Fertilizer Use (N2O)",
+    "": "",
+    "Application (Livestock Type)": " Poultry",
+    " Emission Factors": "  -   ",
+    "Units": "kg GHG/head",
+    " Uncertainty of Emission Factor": "0.0%",
+    "Combined Uncertainty": ""
+  },
+  {
+    "Type of Factor": "Combined Emission Factor for Enteric Fermentation (CH4), Manure Mangement (CH4, N2O), Manure Fertilizer Use (N2O)",
+    "": "",
+    "Application (Livestock Type)": " Swine",
+    " Emission Factors": "  -   ",
+    "Units": "kg GHG/head",
+    " Uncertainty of Emission Factor": "0.0%",
+    "Combined Uncertainty": ""
+  }
+]

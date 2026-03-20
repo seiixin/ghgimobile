@@ -1,0 +1,110 @@
+[
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "IPCC Default Dry Matter Content as % of Wet Weight by Waste Composition",
+    "": "",
+    "Type of Waste": "Paper/cardboard",
+    " Value": "",
+    "Units": "% dry matter content",
+    " Uncertainty of Value": "N/A",
+    "Combined Uncertainty": "N/A",
+    "Reference": "IPCC, 2006 (Volume 5, Chapter 2, Table 2.4) Annex B1",
+    "Uncertainty Source/Rationale": "",
+    "Notes": "Default values were used."
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Textiles",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Food waste",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Wood",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Garden and Park waste",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Nappies",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Rubber and Leather",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Other, inert waste",
+    " Value": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  }
+]

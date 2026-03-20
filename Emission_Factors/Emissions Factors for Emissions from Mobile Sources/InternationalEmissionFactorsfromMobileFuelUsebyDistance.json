@@ -1,0 +1,695 @@
+[
+  {
+    "Fuel Type": "",
+    "": "N2O",
+    "Application": "",
+    " Emission Factors": "CO2",
+    "Units": "",
+    "Emission Factors": "NOx",
+    " Uncertainty of Emission Factor": "CO2"
+  },
+  {
+    "Fuel Type": "Diesel (International)",
+    "": "n/a",
+    "Application": "Bus - Diesel",
+    " Emission Factors": "  1.701 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Ethanol (International)",
+    "": "n/a",
+    "Application": "Bus - Ethanol",
+    " Emission Factors": "  0.691 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Bus - Gasoline",
+    " Emission Factors": "  1.069 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "CNG (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - CNG",
+    " Emission Factors": "  0.586 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Diesel (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Diesel - Year 1960-present",
+    " Emission Factors": "  1.067 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Ethanol (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Ethanol",
+    " Emission Factors": "  0.586 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 1985-1986",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 1987",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 1988-1989",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 1990-1995",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 1996",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 1997",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 1998",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 1999",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 2000",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 2001",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 2002",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 2003",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 2004",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - Gasoline - Year 2005-present",
+    " Emission Factors": "  0.906 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "LNG (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - LNG",
+    " Emission Factors": "  0.470 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "LPG (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Articulated - LPG",
+    " Emission Factors": "  0.642 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Diesel (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Diesel - Year 1960-present",
+    " Emission Factors": "  0.715 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Ethanol (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Ethanol",
+    " Emission Factors": "  0.393 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 1985-1986",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 1987",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 1988-1989",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 1990-1995",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 1996",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 1997",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 1998",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 1999",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 2000",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 2001",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 2002",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 2003",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 2004",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - Gasoline - Year 2005-present",
+    " Emission Factors": "  0.607 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "LNG (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - LNG",
+    " Emission Factors": "  0.315 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "LPG (International)",
+    "": "n/a",
+    "Application": "Heavy Duty Vehicle - Rigid - LPG",
+    " Emission Factors": "  0.431 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Diesel (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Diesel - Year 1960-1982",
+    " Emission Factors": "  0.389 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Diesel (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Diesel - Year 1983-1995",
+    " Emission Factors": "  0.389 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Diesel (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Diesel - Year 1996-present",
+    " Emission Factors": "  0.389 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Ethanol (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Ethanol",
+    " Emission Factors": "  0.213 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Gasoline - Year 1987-1993",
+    " Emission Factors": "  0.330 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Gasoline - Year 1994",
+    " Emission Factors": "  0.330 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Gasoline - Year 1995",
+    " Emission Factors": "  0.330 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Gasoline - Year 1996",
+    " Emission Factors": "  0.330 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Gasoline - Year 1997",
+    " Emission Factors": "  0.330 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Gasoline - Year 1998",
+    " Emission Factors": "  0.330 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Gasoline - Year 1999",
+    " Emission Factors": "  0.330 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Gasoline - Year 2000",
+    " Emission Factors": "  0.330 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Gasoline - Year 2001",
+    " Emission Factors": "  0.330 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Gasoline - Year 2002",
+    " Emission Factors": "  0.330 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Gasoline - Year 2003",
+    " Emission Factors": "  0.330 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Gasoline - Year 2004",
+    " Emission Factors": "  0.330 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - Gasoline - Year 2005-present",
+    " Emission Factors": "  0.330 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "LPG (International)",
+    "": "n/a",
+    "Application": "Light Goods Vehicle - LPG",
+    " Emission Factors": "  0.234 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Motorbike - Control Unknown",
+    " Emission Factors": "  0.126 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Motorbike - Non-Catalyst Control",
+    " Emission Factors": "  0.126 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Motorbike - Uncontrolled",
+    " Emission Factors": "  0.126 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Diesel (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Diesel - Year 1960-1982",
+    " Emission Factors": "  0.280 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Diesel (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Diesel - Year 1983-present",
+    " Emission Factors": "  0.280 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Gasoline - Year 1984-1993",
+    " Emission Factors": "  0.237 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Gasoline - Year 1994",
+    " Emission Factors": "  0.237 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Gasoline - Year 1995",
+    " Emission Factors": "  0.237 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Gasoline - Year 1996",
+    " Emission Factors": "  0.237 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Gasoline - Year 1997",
+    " Emission Factors": "  0.237 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Gasoline - Year 1998",
+    " Emission Factors": "  0.237 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Gasoline - Year 1999",
+    " Emission Factors": "  0.237 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Gasoline - Year 2000",
+    " Emission Factors": "  0.237 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Gasoline - Year 2001",
+    " Emission Factors": "  0.237 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Gasoline - Year 2002",
+    " Emission Factors": "  0.237 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Gasoline - Year 2003",
+    " Emission Factors": "  0.237 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Gasoline - Year 2004",
+    " Emission Factors": "  0.237 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  },
+  {
+    "Fuel Type": "Gasoline (International)",
+    "": "n/a",
+    "Application": "Passenger Car - Gasoline - Year 2005-present",
+    " Emission Factors": "  0.237 ",
+    "Units": "n/a",
+    "Emission Factors": " n/a",
+    " Uncertainty of Emission Factor": "5%"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "",
+    " Emission/Intensity Factor": "",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "Methane Correction Factor",
+    "": "",
+    "Type of Waste": "Managed - Semi-Aerobic",
+    " Emission/Intensity Factor": "0.5",
+    "Units": "MCF",
+    " Uncertainty of Value": "10%",
+    "Combined Uncertainty": "10%",
+    "Reference": "IPCC, 2006 (Volume 5, Chapter 3, Table 3.1) Annex B8",
+    "Uncertainty Source/Rationale": "",
+    "Notes": "Default values were used for MCF per type of site.  \nFor sanitary landfills, the MCF value for the “managed, anaerobic” was chosen.  For dumpsites, the MCF value for “unmanaged, deep” was chosen. "
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Unmanaged - Deep",
+    " Emission/Intensity Factor": "0.8",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  },
+  {
+    "Type of Factor": "",
+    "": "",
+    "Type of Waste": "Uncategorized",
+    " Emission/Intensity Factor": "0.6",
+    "Units": "",
+    " Uncertainty of Value": "",
+    "Combined Uncertainty": "",
+    "Reference": "",
+    "Uncertainty Source/Rationale": "",
+    "Notes": ""
+  }
+]
