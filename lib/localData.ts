@@ -1,10 +1,11 @@
 /**
- * Local data helpers — barangays (API-cached) and emission factors from bundled JSON files.
- * Both barangays and years are fetched from API and cached in SQLite for offline use.
+ * Local data helpers — barangays, inventory years, and emission factors.
+ * All three are fetched from the API and cached in SQLite for offline use.
+ * The local JSON files are kept as a last-resort fallback for label/unit display only.
  */
 import { getDb } from './db';
 
-// ─── Barangays (SQLite cache — real DB ids from API) ──────────────────────────
+// ─── Barangays ────────────────────────────────────────────────────────────────
 
 export interface LocalBarangay {
   id: number;
@@ -37,200 +38,7 @@ export async function getCachedBarangays(): Promise<LocalBarangay[]> {
   );
 }
 
-// ─── Emission Factors ─────────────────────────────────────────────────────────
-
-export interface LocalEF {
-  id: string;
-  label: string;
-  value: number;
-  unit: string;
-}
-
-/**
- * Generic row parser. Tries every candidate label/value field in order
- * and picks the first one that yields a non-empty string / valid number.
- */
-function parseRows(
-  rows: any[],
-  labelCandidates: string[],
-  valueCandidates: string[],
-  unitCandidates: string[],
-): LocalEF[] {
-  const results: LocalEF[] = [];
-
-  rows.forEach((row, idx) => {
-    // Find label
-    let label = '';
-    for (const f of labelCandidates) {
-      const v = String(row[f] ?? '').trim();
-      if (v) { label = v; break; }
-    }
-
-    // Find numeric value
-    let value = NaN;
-    let rawValStr = '';
-    for (const f of valueCandidates) {
-      const v = String(row[f] ?? '').trim().replace(/,/g, '').replace(/\s/g, '');
-      const n = parseFloat(v);
-      if (!isNaN(n)) { value = n; rawValStr = v; break; }
-    }
-
-    // Find unit
-    let unit = '';
-    for (const f of unitCandidates) {
-      const v = String(row[f] ?? '').trim();
-      if (v) { unit = v; break; }
-    }
-
-    // Skip header rows (label equals a field name) and rows with no valid value
-    if (!label || isNaN(value)) return;
-
-    results.push({
-      id:    String(idx),
-      label: unit ? `${label} (${unit})` : label,
-      value,
-      unit,
-    });
-  });
-
-  return results;
-}
-
-// ─── Per-file parsers ─────────────────────────────────────────────────────────
-
-function parseStationary(): LocalEF[] {
-  const rows = require('../Emission_Factors/EmissionsfromStationaryFuelUse.json');
-  return parseRows(rows,
-    ['Fuel Type'],
-    [' Emission Factors'],
-    ['Units'],
-  );
-}
-
-function parseLivestock(): LocalEF[] {
-  const rows = require('../Emission_Factors/Agriculture (Livestock) Emissions Factors/Agriculture(Livestock)EmissionsFactors.json');
-  return parseRows(rows,
-    ['Application (Livestock Type)', 'Type of Factor'],
-    [' Emission Factors'],
-    ['Units'],
-  );
-}
-
-function parseCrops(): LocalEF[] {
-  const rows = require('../Emission_Factors/Agriculture (Crop-Type) Emissions Factors/EmissionsfromAgriculture(Crops).json');
-  return parseRows(rows,
-    ['Application (Crop Type and Irrigation)*', 'Type of Factor'],
-    [' Emission Factors'],
-    ['Units'],
-  );
-}
-
-function parseBiological(): LocalEF[] {
-  const rows = require('../Emission_Factors/Biological Treatment of Solid Waste Emission Factors/BiologicalTreatmentofSolidWasteEmission.json');
-  return parseRows(rows,
-    ['Type of Waste', 'Type of Factor'],
-    [' Emission/Intensity Factor'],
-    ['Units'],
-  );
-}
-
-function parseElectricity(): LocalEF[] {
-  const rows = require('../Emission_Factors/Electricity Emission Factors for the Philippines/EmissionsfromElectricityGeneration.json');
-  return parseRows(rows,
-    ['Country/Region/Grid*', 'Application'],
-    [' Emission Factors'],
-    ['Units'],
-  );
-}
-
-function parseForestry(): LocalEF[] {
-  const rows = require('../Emission_Factors/ForestryEmissionsFactors/ForestryEmissionsFactors.json');
-  return parseRows(rows,
-    ['Sources of Emission', 'Sources of Removal'],
-    ['Emission/Removal Factor'],
-    ['Units'],
-  );
-}
-
-function parseIndustrial(): LocalEF[] {
-  const rows = require('../Emission_Factors/Industrial Processes Emission Factors/IndustrialProcessesEmissionFactors.json');
-  return parseRows(rows,
-    ['Operation', 'Industry Type'],
-    ['Emission Factor'],
-    // No dedicated Units column — embed in label via Operation field
-    ['Units', ''],
-  );
-}
-
-function parseSolidWaste(): LocalEF[] {
-  const rows = require('../Emission_Factors/Waste Emission Factors (IPCC-derived)/SolidWasteDisposalEmissionFactors.json');
-  return parseRows(rows,
-    ['Type of Waste', 'Type of Factor'],
-    [' Emission/Intensity Factor'],
-    ['Units'],
-  );
-}
-
-function parseAirTravel(): LocalEF[] {
-  const rows = require('../Emission_Factors/Emissions Factors for Emissions from Mobile Sources/EmissionsfromCommercialAirTravel.json');
-  return parseRows(rows,
-    ['Flight Distance', 'Flight Type'],
-    [' Emission Factors*'],
-    ['Units'],
-  );
-}
-
-function parseBusinessTravel(): LocalEF[] {
-  const rows = require('../Emission_Factors/Emissions Factors for Emissions from Mobile Sources/EmissionsfromOtherEmployeeBusinessTravel(AllExceptAirTravel).json');
-  return parseRows(rows,
-    ['Distance/Application', 'Rail Type'],
-    [' Emission Factors*'],
-    ['Units'],
-  );
-}
-
-function parseMobileCombustion(): LocalEF[] {
-  const byConsumption = require('../Emission_Factors/Emissions Factors for Emissions from Mobile Sources/InternationalEmissionFactorsforMobileFuelConsumption.json');
-  const byDistance    = require('../Emission_Factors/Emissions Factors for Emissions from Mobile Sources/InternationalEmissionFactorsfromMobileFuelUsebyDistance.json');
-  const combined      = [...byConsumption, ...byDistance];
-  return parseRows(combined,
-    ['Fuel Type', 'Application'],
-    [' Emission Factors'],
-    ['Units'],
-  );
-}
-
-// ─── Cache + public API ───────────────────────────────────────────────────────
-
-const _efCache: Record<string, LocalEF[]> = {};
-
-export function getLocalEFs(formType: string): LocalEF[] {
-  if (_efCache[formType]) return _efCache[formType];
-
-  let results: LocalEF[] = [];
-
-  switch (formType) {
-    case 'stationary_combustion':   results = parseStationary();      break;
-    case 'livestock':               results = parseLivestock();        break;
-    case 'crops':                   results = parseCrops();            break;
-    case 'biological_treatment':    results = parseBiological();       break;
-    case 'electricity_consumption': results = parseElectricity();      break;
-    case 'forestry':
-    case 'forestry_removal':        results = parseForestry();         break;
-    case 'industrial_processes':    results = parseIndustrial();       break;
-    case 'solid_waste':
-    case 'wastewater':              results = parseSolidWaste();       break;
-    case 'air_travel':              results = parseAirTravel();        break;
-    case 'business_travel':         results = parseBusinessTravel();   break;
-    case 'mobile_combustion':       results = parseMobileCombustion(); break;
-    default:                        results = [];
-  }
-
-  _efCache[formType] = results;
-  return results;
-}
-
-// ─── Inventory Years (SQLite cache) ──────────────────────────────────────────
+// ─── Inventory Years ──────────────────────────────────────────────────────────
 
 export interface CachedYear {
   id: number;
@@ -247,6 +55,8 @@ const INIT_YEARS_SQL = `
 export async function cacheYears(years: CachedYear[]): Promise<void> {
   const db = await getDb();
   await db.execAsync(INIT_YEARS_SQL);
+  // Clear old entries so stale years (e.g. 2023) don't persist
+  await db.runAsync(`DELETE FROM cached_years`);
   for (const y of years) {
     await db.runAsync(
       `INSERT OR REPLACE INTO cached_years (id, year) VALUES (?, ?)`,
@@ -261,4 +71,104 @@ export async function getCachedYears(): Promise<CachedYear[]> {
   return db.getAllAsync<{ id: number; year: number }>(
     `SELECT id, year FROM cached_years ORDER BY year DESC`
   );
+}
+
+// ─── Emission Factors (API-cached, real DB ids) ───────────────────────────────
+
+export interface LocalEF {
+  id: number;   // real DB id — must match emission_factors.id on the server
+  label: string;
+  value: number;
+  unit: string;
+}
+
+const INIT_EFS_SQL = `
+  CREATE TABLE IF NOT EXISTS cached_efs (
+    id               INTEGER PRIMARY KEY,
+    form_type        TEXT NOT NULL,
+    subcategory      TEXT,
+    fuel_type        TEXT,
+    application_type TEXT,
+    gas_type         TEXT,
+    value            REAL NOT NULL,
+    unit             TEXT,
+    label            TEXT NOT NULL
+  );
+`;
+
+/**
+ * Map a server-side form_type to the subcategory(ies) used in emission_factors table.
+ * Matches the subcategory values set by EmissionFactorSeeder.inferSubcategory().
+ */
+const FORM_TYPE_TO_SUBCATEGORY: Record<string, string[]> = {
+  mobile_combustion:       ['Mobile Fuel Consumption', 'Mobile Fuel Use by Distance'],
+  stationary_combustion:   ['Stationary Fuel Use'],
+  electricity_consumption: ['Philippines Electricity'],
+  livestock:               ['Agriculture Livestock'],
+  crops:                   ['Agriculture Crops'],
+  solid_waste:             ['Solid Waste Disposal'],
+  wastewater:              ['Solid Waste Disposal'],   // no dedicated wastewater EF file; fallback
+  biological_treatment:    ['Biological Treatment of Solid Waste'],
+  industrial_processes:    ['Industrial Processes'],
+  forestry:                ['Forestry'],
+  forestry_removal:        ['Forestry'],
+  air_travel:              ['Commercial Air Travel'],
+  business_travel:         ['Other Employee Business Travel'],
+};
+
+export async function cacheEFs(efs: any[]): Promise<void> {
+  const db = await getDb();
+  await db.execAsync(INIT_EFS_SQL);
+
+  for (const ef of efs) {
+    // Build a human-readable label from available fields
+    const parts = [ef.fuel_type, ef.application_type].filter(Boolean);
+    const label = parts.length > 0
+      ? parts.join(' — ')
+      : (ef.subcategory ?? 'Unknown');
+
+    // Determine which form_types this EF belongs to
+    const formTypes = Object.entries(FORM_TYPE_TO_SUBCATEGORY)
+      .filter(([, subs]) => subs.includes(ef.subcategory))
+      .map(([ft]) => ft);
+
+    for (const ft of formTypes) {
+      await db.runAsync(
+        `INSERT OR REPLACE INTO cached_efs
+           (id, form_type, subcategory, fuel_type, application_type, gas_type, value, unit, label)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+        [ef.id, ft, ef.subcategory ?? '', ef.fuel_type ?? '', ef.application_type ?? '',
+         ef.gas_type ?? 'CO2', ef.value, ef.unit ?? '', label]
+      );
+    }
+  }
+}
+
+export async function getCachedEFs(formType: string): Promise<LocalEF[]> {
+  const db = await getDb();
+  await db.execAsync(INIT_EFS_SQL);
+  const rows = await db.getAllAsync<{
+    id: number; label: string; value: number; unit: string;
+  }>(
+    `SELECT id, label, value, unit
+       FROM cached_efs
+      WHERE form_type = ? AND value > 0
+      ORDER BY label ASC`,
+    [formType]
+  );
+  return rows;
+}
+
+/**
+ * In-memory cache so getLocalEFs() (sync, used in render) works after
+ * the async getCachedEFs() has been called once per session.
+ */
+const _memCache: Record<string, LocalEF[]> = {};
+
+export function setMemEFs(formType: string, efs: LocalEF[]): void {
+  _memCache[formType] = efs;
+}
+
+export function getLocalEFs(formType: string): LocalEF[] {
+  return _memCache[formType] ?? [];
 }

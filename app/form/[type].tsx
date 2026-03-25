@@ -11,7 +11,8 @@ import api from '@/lib/api';
 import { saveDraft } from '@/lib/db';
 import {
   getCachedBarangays, cacheBarangays,
-  getLocalEFs, getCachedYears, cacheYears,
+  getLocalEFs, setMemEFs, getCachedEFs, cacheEFs,
+  getCachedYears, cacheYears,
   type LocalBarangay, type LocalEF, type CachedYear,
 } from '@/lib/localData';
 
@@ -400,7 +401,8 @@ export default function FormScreen() {
   const [barangays, setBarangays]   = useState<LocalBarangay[]>([]);
   const [co2ePreview, setCo2ePreview] = useState<number | null>(null);
 
-  const efs: LocalEF[] = type ? getLocalEFs(type) : [];
+  // EFs loaded from API cache (real DB ids) — not local JSON index
+  const [efs, setEfs] = useState<LocalEF[]>([]);
 
   // Barangays: try API first, cache in SQLite, fall back offline
   useEffect(() => {
@@ -439,6 +441,28 @@ export default function FormScreen() {
     }
     loadYears();
   }, []);
+
+  // EFs: fetch from API filtered by gas_type=CO2, cache with real DB ids
+  useEffect(() => {
+    if (!type) return;
+    async function loadEFs() {
+      try {
+        const net = await Network.getNetworkStateAsync();
+        if (net.isConnected && net.isInternetReachable) {
+          const { data } = await api.get('/emission-factors', { params: { gas_type: 'CO2' } });
+          await cacheEFs(data);
+        }
+        const cached = await getCachedEFs(type);
+        setEfs(cached);
+        setMemEFs(type, cached);
+      } catch {
+        const cached = await getCachedEFs(type);
+        setEfs(cached);
+        setMemEFs(type, cached);
+      }
+    }
+    loadEFs();
+  }, [type]);
 
   // CO2e live preview — activity field × EF value / 1000
   const watchedValues = watch();
