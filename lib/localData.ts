@@ -84,7 +84,7 @@ export interface LocalEF {
 
 const INIT_EFS_SQL = `
   CREATE TABLE IF NOT EXISTS cached_efs (
-    id               INTEGER PRIMARY KEY,
+    id               INTEGER NOT NULL,
     form_type        TEXT NOT NULL,
     subcategory      TEXT,
     fuel_type        TEXT,
@@ -92,7 +92,8 @@ const INIT_EFS_SQL = `
     gas_type         TEXT,
     value            REAL NOT NULL,
     unit             TEXT,
-    label            TEXT NOT NULL
+    label            TEXT NOT NULL,
+    PRIMARY KEY (id, form_type)
   );
 `;
 
@@ -106,7 +107,7 @@ const FORM_TYPE_TO_SUBCATEGORY: Record<string, string[]> = {
   electricity_consumption: ['Philippines Electricity'],
   livestock:               ['Agriculture Livestock'],
   crops:                   ['Agriculture Crops'],
-  solid_waste:             ['Solid Waste Disposal'],
+  solid_waste:             ['Solid Waste Disposal', 'ICLEI Landfill MCF'],
   wastewater:              ['Solid Waste Disposal'],   // no dedicated wastewater EF file; fallback
   biological_treatment:    ['Biological Treatment of Solid Waste'],
   industrial_processes:    ['Industrial Processes'],
@@ -118,11 +119,17 @@ const FORM_TYPE_TO_SUBCATEGORY: Record<string, string[]> = {
 
 export async function cacheEFs(efs: any[]): Promise<void> {
   const db = await getDb();
+  // Migrate: drop old single-PK table if it exists so composite PK schema takes effect
+  await db.execAsync(`DROP TABLE IF EXISTS cached_efs`);
   await db.execAsync(INIT_EFS_SQL);
 
   for (const ef of efs) {
+    // Skip EFs with non-meaningful application_type labels for waste system type picker
+    const appType: string = ef.application_type ?? '';
+    const fuelType: string = ef.fuel_type ?? '';
+
     // Build a human-readable label from available fields
-    const parts = [ef.fuel_type, ef.application_type].filter(Boolean);
+    const parts = [fuelType, appType].filter(Boolean);
     const label = parts.length > 0
       ? parts.join(' — ')
       : (ef.subcategory ?? 'Unknown');
@@ -133,11 +140,18 @@ export async function cacheEFs(efs: any[]): Promise<void> {
       .map(([ft]) => ft);
 
     for (const ft of formTypes) {
+      // For solid_waste, skip generic/non-waste-type entries that aren't useful as pickers
+      // (e.g. "All", "Managed", "Unmanaged Deep and Uncategorized" from MCF/oxidation rows)
+      if (ft === 'solid_waste') {
+        const skipLabels = ['All', 'Managed', 'Unmanaged Deep and Uncategorized', 'Uncategorized'];
+        if (skipLabels.includes(appType) || skipLabels.includes(fuelType)) continue;
+      }
+
       await db.runAsync(
         `INSERT OR REPLACE INTO cached_efs
            (id, form_type, subcategory, fuel_type, application_type, gas_type, value, unit, label)
          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
-        [ef.id, ft, ef.subcategory ?? '', ef.fuel_type ?? '', ef.application_type ?? '',
+        [ef.id, ft, ef.subcategory ?? '', fuelType, appType,
          ef.gas_type ?? 'CO2', ef.value, ef.unit ?? '', label]
       );
     }

@@ -84,6 +84,7 @@ const FORM_CONFIGS: Record<string, FormConfig> = {
       },
       { name: 'emission_factor_id', label: 'Fuel Type',               type: 'select', required: true, isEFPicker: true },
       { name: 'annual_consumption',  label: 'Annual Fuel Consumption', type: 'number', required: true, placeholder: 'e.g. 5000', numeric: true },
+      { name: 'annual_fee_kg',       label: 'Annual Fee (kg)',         type: 'number', required: true, placeholder: 'e.g. 1200', numeric: true },
       { name: 'facility_description', label: 'Facility Description',  type: 'text',   required: false, placeholder: 'e.g. City Hall boiler room' },
     ],
   },
@@ -133,7 +134,7 @@ const FORM_CONFIGS: Record<string, FormConfig> = {
           { value: 'iclei_landfill_outside', label: 'ICLEI Landfill – Outside LGU' },
         ],
       },
-      { name: 'emission_factor_id',    label: 'Waste System Type',    type: 'select', required: true, isEFPicker: true },
+      { name: 'emission_factor_id',    label: 'Waste System / Landfill Type', type: 'select', required: true, isEFPicker: true },
       { name: 'waste_quantity_tonnes', label: 'Waste Quantity (tonnes)', type: 'number', required: true, placeholder: 'e.g. 500', numeric: true },
     ],
   },
@@ -186,9 +187,28 @@ const FORM_CONFIGS: Record<string, FormConfig> = {
   forestry_removal: {
     label: 'Forestry Removal (GHG Removal from Sink)',
     fields: [
-      { name: 'removal_type',       label: 'Removal Type',    type: 'text',   required: true, placeholder: 'e.g. Forest, Cropland, Grassland' },
-      { name: 'removal_source',     label: 'Removal Source',  type: 'text',   required: true, placeholder: 'e.g. Biomass, Soil' },
-      { name: 'emission_factor_id', label: 'Removal Factor',  type: 'select', required: true, isEFPicker: true },
+      {
+        name: 'removal_type', label: 'Removal Type', type: 'select', required: true,
+        options: [
+          { value: 'Forest',       label: 'Forest'       },
+          { value: 'Cropland',     label: 'Cropland'     },
+          { value: 'Grassland',    label: 'Grassland'    },
+          { value: 'Wetlands',     label: 'Wetlands'     },
+          { value: 'Settlements',  label: 'Settlements'  },
+          { value: 'Other Land',   label: 'Other Land'   },
+        ],
+      },
+      {
+        name: 'removal_source', label: 'Removal Source', type: 'select', required: true,
+        options: [
+          { value: 'Biomass',                   label: 'Biomass'                   },
+          { value: 'Soil',                      label: 'Soil'                      },
+          { value: 'Dead Wood',                 label: 'Dead Wood'                 },
+          { value: 'Litter',                    label: 'Litter'                    },
+          { value: 'Harvested Wood Products',   label: 'Harvested Wood Products'   },
+        ],
+      },
+      { name: 'emission_factor_id', label: 'Removal Factor', type: 'select', required: true, isEFPicker: true },
       { name: 'area_hectares',      label: 'Area (hectares)', type: 'number', required: true, placeholder: 'e.g. 50', numeric: true },
     ],
   },
@@ -367,6 +387,7 @@ export default function FormScreen() {
       // stationary_combustion
       building_type:        '',
       annual_consumption:   '',
+      annual_fee_kg:        '',
       facility_description: '',
       // electricity_consumption
       site_type:            '',
@@ -561,6 +582,7 @@ export default function FormScreen() {
         payload.building_type        = values.building_type;
         payload.emission_factor_id   = efId;
         payload.annual_consumption   = parseFloat(values.annual_consumption);
+        payload.annual_fee_kg        = parseFloat(values.annual_fee_kg);
         payload.facility_description = values.facility_description || undefined;
         break;
       case 'electricity_consumption':
@@ -752,19 +774,29 @@ export default function FormScreen() {
       )}
 
       {/* Data source */}
-      <View style={styles.field}>
-        <Text style={styles.fieldLabel}>Data Source</Text>
-        <Controller
-          control={control}
-          name="data_source"
-          rules={{ required: 'Data source is required' }}
-          render={({ field: { value, onChange } }) => (
-            <TextInput style={styles.input} value={value} onChangeText={onChange}
-              placeholder="e.g. Survey, Records" placeholderTextColor="#9ca3af" />
-          )}
-        />
-        {errors.data_source && <Text style={styles.error}>{errors.data_source.message as string}</Text>}
-      </View>
+      <Controller
+        control={control}
+        name="data_source"
+        rules={{ required: 'Data source is required' }}
+        render={({ field: { value, onChange } }) => (
+          <SimpleSelect
+            label="Data Source"
+            value={value}
+            onSelect={onChange}
+            options={[
+              { id: 'survey',              label: 'Survey'                    },
+              { id: 'official_records',    label: 'Official Records'          },
+              { id: 'utility_bills',       label: 'Utility Bills'             },
+              { id: 'government_database', label: 'Government Database'       },
+              { id: 'field_measurement',   label: 'Field Measurement'         },
+              { id: 'estimation',          label: 'Estimation'                },
+              { id: 'third_party_report',  label: 'Third-Party Report'        },
+              { id: 'other',               label: 'Other'                     },
+            ]}
+          />
+        )}
+      />
+      {errors.data_source && <Text style={styles.error}>{errors.data_source.message as string}</Text>}
 
       {/* Notes */}
       <View style={styles.field}>
